@@ -1,0 +1,22 @@
+{
+  "name": "Mapa Municípios Brasil",
+  "description": "Visualização personalizada que desenha polígonos de municípios do Brasil a partir de um GeoJSON público",
+  "organization": "Amarílis Bahia Bezerra",
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Map_marker.svg",
+  "supportUrl": "https://github.com/amarilisbezerra-beep/meu-mapa",
+  "devMode": true,
+  "components": [
+    {
+      "id": "mapa-municipios",
+      "file": "index.js",
+      "name": "Mapa Municípios",
+      "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Map_marker.svg",
+      "scripts": [
+        "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      ],
+      "stylesheets": [
+        "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      ]
+    }
+  ]
+}
